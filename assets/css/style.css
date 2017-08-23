@@ -1,0 +1,84 @@
+body {
+	background-image: url("../images/memphis-colorful.png");
+}
+
+#crystals {
+	margin: auto;
+	clear: both;
+}
+
+#crystals img {
+	float: left;
+	margin: 25px;
+	display: inline-block;
+}
+
+h1 {
+	font-size: 36px;
+	background-color: #bf5700;
+	color: #ffffff;
+	display: inline-block;
+	padding: 25px;
+	margin: 5px;
+}
+
+p {
+	line-height: .5;
+	display: block;
+	margin: 5px;
+	padding: 15px;
+	clear: both;
+	float: left;
+}
+
+.instructions {
+	background-color: blue;
+	color: #ffffff;
+	display: inline-block;
+	margin: 5px;
+	padding: 15px;
+	float: left;
+}
+
+#number-to-guess {
+	color: #ffffff;
+	background-color: green;
+	display: inline-block;
+	margin: 5px;
+	padding: 15px;
+	font-size: 28px;
+	clear: both;
+	float: left;
+}
+
+#score {
+	color: #ffffff;
+	background-color: black;
+	display: inline-block;
+	float: left;
+	margin: 5px;
+	padding: 15px;
+	clear: both;
+}
+
+
+.score-text p {
+	color: #ffffff;
+	background-color: black;
+	display: inline-block;
+	float: left;
+	margin: 5px;
+	padding: 15px;
+}
+
+.counters {
+	display: inline-block;
+	background-color: #008080;
+	color: #000080;
+	padding: 25px;
+	float: left;
+}
+
+h2 {
+	font-size: 20px;
+}

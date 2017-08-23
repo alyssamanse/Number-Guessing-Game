@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Collector Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="wrapper">
+
+	<div class="title">
+		<h1>Crystals Collector!</h1>
+	</div>
+
+	<div class="instructions">
+		<p>You will be given a random number at the start of the game.</p>
+		<p>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.</p>
+		<p>You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.</p>
+		<p>The value of each crystal is hidden from you until you click on it.</p>
+		<p>Each time when the game starts, the game will change the values of each crystal.</p>
+	</div> 
+
+
+	<div id="number-to-guess"></div>
+
+	<div class="counters">
+		<div id="wins">
+		</div>
+		<div id="losses">
+		</div>
+	</div>
+
+	<div id="crystals">
+		<div id="crystal1" class="crystal">
+			<img src="assets/images/amethyst.jpg" height="150px" width="150px">
+		</div>
+		<div id="crystal2" class="crystal">
+			<img src="assets/images/morganite.jpg" height="150px" width="150px">
+		</div>
+		<div id="crystal3" class="crystal">
+			<img src="assets/images/opal.jpg" height="150px" width="150px">
+		</div>
+		<div id="crystal4" class="crystal">
+			<img src="assets/images/sapphire.jpg" height="150px" width="150px">
+		</div>
+	</div>
+
+	<div class="score-text">
+		<p>Your total score is:</p>
+	</div>
+
+	<div id="score"></div>
+
+
+	
+</div>
+
+</body>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</html>
